@@ -1,9 +1,13 @@
 # wine Clerk
 
-Wine Clerk is a Chrome/Chromium extension that replaces gross auction bid prices on each page with total cost prices. The total cost is calculated using:
+**Compatibility:** [WineBid.com](http://www.winebid.com)
 
-- intial bottle bid price
-- auction house take (17% for WineBid)
+Wine Clerk is a Chrome/Chromium extension that automatically replaces gross auction bid prices with estimated total purchase cost. Modified prices will have a tilde (~) added in front of them, for example `$~231.32`.
+
+Total cost is estimated using:
+
+- gross bottle bid price
+- auction house take (e.g. 17% for WineBid)
 - local shipping price (user entered)
 - local sales tax (if applicable)
 
