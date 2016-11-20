@@ -6,7 +6,7 @@
   ],
   "content_scripts": [
     {
-      "matches": ["https://www.winebid.com/*"],
+      "matches": ["https://www.winebid.com/Bids", "https://www.winebid.com/BuyWine/*"],
       "js": ["jquery-3.1.1.min.js","main.js"],
       "run_at": "document_end"
     }
